@@ -2,12 +2,14 @@ body {
     font-family: roboto, Verdana, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 a {
@@ -17,8 +19,11 @@ a {
 
 .header {
     background-color:  #1F2937;
+    padding: 15px 150px 100px 150px;
 }
-
+.hero {
+    display: flex;
+}
 .hero-main {
     font-size: 48px;
     font-weight: 800;
@@ -34,4 +39,29 @@ a {
 .hero-content {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 10px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;;
+}
+
+button {
+    border-radius: 7px;
+    padding: 5px 25px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.signup-header{
+    border: 0;
+}
+
+.placeholder{
+    padding-left: 25px;
+}
+.signup-banner {
+    border-color: #F9FAF8;
 }
