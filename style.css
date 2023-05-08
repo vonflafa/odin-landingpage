@@ -24,6 +24,7 @@ a {
 .hero {
     display: flex;
 }
+
 .hero-main {
     font-size: 48px;
     font-weight: 800;
@@ -60,7 +61,9 @@ button {
 }
 
 .placeholder{
+    display: flex;
     padding-left: 25px;
+    height: 250px;
 }
 .signup-banner {
     border-color: #F9FAF8;
