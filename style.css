@@ -10,6 +10,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 15px;
 }
 
 a {
@@ -20,7 +21,9 @@ a {
 .header {
     background-color:  #1F2937;
     padding: 15px 150px 100px 150px;
+
 }
+
 .hero {
     display: flex;
 }
@@ -45,8 +48,9 @@ a {
 
 .header-top {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding-bottom: 150px;;
+    padding-bottom: 150px;
 }
 
 button {
@@ -67,4 +71,42 @@ button {
 }
 .signup-banner {
     border-color: #F9FAF8;
+}
+
+.info {
+    padding: 15px 200px 100px 200px;
+}
+.info-title  {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 40px 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    flex: 0 0 auto;
+}
+.info-box img {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.info-box .text
+{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
 }
