@@ -74,7 +74,7 @@ button {
 }
 
 .info {
-    padding: 15px 200px 100px 200px;
+    padding: 15px 200px 150px 200px;
 }
 .info-title  {
     text-align: center;
@@ -109,4 +109,36 @@ button {
     font-size: 14px;
     text-align: center;
     padding-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 150px;
+}
+
+.signature {
+    text-align: right;
+    font-weight: bold;
+}
+
+.banner {
+    border-radius: 15px;
+    background-color:#3882F6;
+    padding: 50px 150px;
+
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #F9FAF8
+}
+
+.banner-text {
+    font-size: 14px;
+    color:#E5E7EB;
 }
